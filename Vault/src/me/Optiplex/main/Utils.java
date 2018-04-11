@@ -10,7 +10,7 @@ public class Utils {
 		}
 	}
 
-	public void sm(Player p , String s) {
+	public static void sm(Player p , String s) {
 		p.sendMessage(MainC.getPrefix() + s);
 	}
 	

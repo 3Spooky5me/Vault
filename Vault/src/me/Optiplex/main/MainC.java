@@ -1,5 +1,7 @@
 package me.Optiplex.main;
 
+import org.bukkit.entity.Player;
+import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import net.md_5.bungee.api.ChatColor;
@@ -7,7 +9,6 @@ import net.md_5.bungee.api.ChatColor;
 public class MainC extends JavaPlugin{
 	Plugin plugin;
 	Player p ;
-	String s "BEAST WAS HERE";
 	
 	public void onEnable() {
 		plugin = this;
@@ -23,4 +24,5 @@ public class MainC extends JavaPlugin{
 	+ ChatColor.DARK_GRAY + "]: " + ChatColor.GRAY;
 	public static String getPrefix() {
 		return mainPrefix;
+	}	
 }
